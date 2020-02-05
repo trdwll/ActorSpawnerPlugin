@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ActorSpawnerPlugin",
+	"Description": "A plugin that spawns actors in your level.",
+	"Category": "Other",
+	"CreatedBy": "Russ 'trdwll' Treadwell",
+	"CreatedByURL": "https://trdwll.com",
+	"DocsURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ActorSpawnerPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux"
+			]
+		}
+	]
+}
