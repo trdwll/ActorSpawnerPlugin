@@ -5,9 +5,7 @@ pipeline {
   agent {
     node {
       label 'Windows'
-      customWorkspace 'ActorSpawnerPlugin/ActorSpawnerPlugin'
     }
-
   }
   stages {
     stage('Build') {
