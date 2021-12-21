@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        bat "py -u C:\\jenkins.py ActorSpawnerPlugin Build \"%WORKSPACE%\""
+        bat "C:\\JenkinsBuilder.exe ActorSpawnerPlugin Build \"%WORKSPACE%\""
       }
     }
 
@@ -19,7 +19,7 @@ pipeline {
         branch "main"
       }
       steps {
-        bat "py -u C:\\jenkins.py ActorSpawnerPlugin Publish \"%WORKSPACE%\""
+        bat "C:\\JenkinsBuilder.exe ActorSpawnerPlugin Publish \"%WORKSPACE%\""
       }
     }
   }
